@@ -1,4 +1,4 @@
-# cherrrypie-web
+# cherrypie-web
 
 > A Vue.js project
 

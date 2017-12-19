@@ -1,0 +1,300 @@
+/*
+    Fonts
+*/
+@import url('//hello.myfonts.net/count/3306b3');
+@font-face {font-family: 'FilosofiaOT-Italic';src: url('../fonts/3306B3_0_0.eot');src: url('../fonts/3306B3_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3306B3_0_0.woff2') format('woff2'),url('../fonts/3306B3_0_0.woff') format('woff'),url('../fonts/3306B3_0_0.ttf') format('truetype');}
+
+
+/*
+    Desktop Small (1200 <=)
+*/
+
+@media only screen and (min-width: 1215px) {
+
+    /* 
+        General
+    _____________________________________________ */
+
+    .navigation,
+    .breadcrumbs,
+    .page-header .header.panel,
+    .header.content,
+    .footer.content,
+    .page-wrapper > .widget,
+    .page-wrapper > .page-bottom,
+    .block.category.event,
+    .top-container,
+    .page-main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 1215px) {
+
+    /* 
+        Home
+    _____________________________________________ */
+
+    .home-section {
+        padding: 0 15px;
+    }
+
+}
+@media only screen and (max-width: 767px) {
+    .slider-desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .slider-mobile {
+        display: none;
+    }
+}
+
+/*
+    Mini Cart
+*/
+.minicart-wrapper .action.showcart:before {
+    background-attachment: scroll; 
+    background-color: transparent;
+    background-image: url('../images/shopping-bag.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 35px;
+    left: -4px;
+    position: absolute;
+    top: -8px;
+    width: 32px;
+}
+.minicart-wrapper .action.showcart.active:before {
+    content: '';
+}
+.minicart-wrapper .action.showcart:before,
+.minicart-wrapper .action.showcart::before {
+    content: '';
+}
+.header .minicart-wrapper .action.close {
+    right: 10px;
+    top: 16px;
+}
+.header .minicart-wrapper .action.close:before {
+    color: #3F3938;
+    font-size: 40px;
+}
+.minicart-wrapper .action.showcart:hover::before {
+    background-image: url('../images/shopping-bag-active.png');
+}
+.minicart-wrapper .action.showcart .counter.qty {
+    background: none;
+    color: #929292;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+@media only screen and (max-height: 900px) {
+    .minicart-items-wrapper {
+        height: 60% !important;
+    }
+}
+@media only screen and (max-height: 800px) {
+    .minicart-items-wrapper {
+        height: 50% !important;
+    }
+}
+@media only screen and (max-height: 640px) {
+    .minicart-items-wrapper {
+        height: 40% !important;
+    }
+}
+@media only screen and (max-height: 480px) {
+    .minicart-items-wrapper {
+        height: 142px !important;
+    }
+}
+
+
+/*
+    WELTPIXEL MFP Pop-Up Customization
+*/
+.mfp-iframe-scaler iframe {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16) !important;
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16) !important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16) !important;
+}
+.mfp-bg {
+    background: #FEFEFE !important;
+    background: rgb(254, 254, 254) !important;
+    background: rgba(254, 254, 254, 0.6) !important;
+}
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+    color: #BAB1AC !important;
+    font-weight: 400 !important;
+    min-width: 40px !important;
+    /*right: 0px !important;*/
+    text-align: center !important;
+    /*top: 0 !important;*/
+    width: auto !important;
+}
+/*.mfp-preloader {
+    background-color: #3F3938 !important;
+}*/
+
+
+/* ========================================================================= */
+/*
+    BelVG - ThankYouPage
+*/
+.checkout-onepage-success #checkout-thank-you-success {
+    background: #F8F8F8;
+    border-top: 6px solid #EAC112;
+    color: #7D716D;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    text-align: center;
+    width: 83.333%;
+}
+
+#checkout-thank-you-success .heading {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    margin: 0 50px;
+}
+#checkout-thank-you-success .order-number-wrapper {
+    border-bottom: 1px solid #E5E3E2;
+    border-top: 1px solid #E5E3E2;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 60px 50px 30px;
+    padding: 25px 0;
+}
+#checkout-thank-you-success .customer-email-info {
+    line-height: 1.81;
+    margin-bottom: 50px;
+}
+#checkout-thank-you-success a.home-main {
+    font-weight: 700;
+}
+
+#checkout-thank-you-coupon {
+    background: #DBD6D4;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+    padding: 24px 50px;
+    width: 83.333%;
+}
+#checkout-thank-you-coupon .content {
+    margin-bottom: 15px;
+}
+#checkout-thank-you-coupon .heading {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+#checkout-thank-you-coupon .info {
+    color: #7D716D;
+    font-size: 16px;
+}
+#checkout-thank-you-coupon .coupon-code {
+    background-color: #FFF;
+    color: #7D716D;
+    display: inline-block;
+    font-weight: 700;
+    padding: 8px 40px;
+}
+@media only screen and (max-width: 640px) {
+    .checkout-onepage-success #checkout-thank-you-success {
+        padding-top: 40px;
+        width: 95%;
+    }
+    #checkout-thank-you-success .order-number-wrapper {
+        margin-top: 40px;
+    }
+    .checkout-onepage-success #checkout-thank-you-success {
+        width: 95%;
+    }
+}
+
+
+/*
+    RETINA HI-RES DISPLAY
+*/
+/*@media(-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {*/
+@media(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+    .minicart-wrapper .action.showcart:before {
+        background-image: url('../images/shopping-bag@2x.png');
+        background-size: 32px 36px;
+    }
+    .minicart-wrapper .action.showcart:hover::before {
+        background-image: url('../images/shopping-bag-active@2x.png');
+    }
+    .action.mailto.friend:before {
+        background-image: url('../images/icon-email@2x.png');
+        background-size: 23px 18px;
+    }
+    .product-social-links .action.towishlist:before, 
+    .block-bundle-summary .action.towishlist:before, 
+    .product-item .action.towishlist:before, 
+    .table-comparison .action.towishlist:before, 
+    .product-info-main .action.towishlist:before, 
+    .product-options-bottom .action.towishlist:before, 
+    .block-bundle-summary .action.towishlist:before {
+        background-image: url(../images/icon-fav-outline@2x.png);
+        background-size: 21px 20px;
+    }
+    .product-social-links .action.towishlist:hover:before, 
+    .block-bundle-summary .action.towishlist:hover:before, 
+    .product-item .action.towishlist:hover:before, 
+    .table-comparison .action.towishlist:hover:before, 
+    .product-info-main .action.towishlist:hover:before, 
+    .product-options-bottom .action.towishlist:hover:before, 
+    .block-bundle-summary .action.towishlist:hover:before {
+        background-image: url(../images/icon-fav-hover@2x.png);
+    }
+    .block-search .action.search:before {
+        background-image: url(../images/icon-search.png);
+        background-size: 24px 24px;
+    }
+    .block-search .action.search:hover:before {
+        background-image: url(../images/icon-search-active@2x.png);
+    }
+    /* footer */
+    .page-footer .social-media-links li.facebook a:before {
+        background-size: 41px 41px;
+    }
+    .page-footer .social-media-links li.facebook a:before {
+        background-image: url(../images/facebook-footer@2x.png);
+    }
+    .page-footer .social-media-links li.facebook a:hover:before {
+        background-image: url(../images/facebook-footer-over@2x.png);
+    }
+    .page-footer .social-media-links li.twitter a:before {
+        background-image: url(../images/twitter-footer@2x.png);
+    }
+    .page-footer .social-media-links li.twitter a:hover:before {
+        background-image: url(../images/twitter-footer-over@2x.png);
+    }
+    .page-footer .social-media-links li.pinterest a:before {
+        background-image: url(../images/pinterest-footer@2x.png);
+    }
+    .page-footer .social-media-links li.pinterest a:hover:before {
+        background-image: url(../images/pinterest-footer-over@2x.png);
+    }
+    .page-footer .social-media-links li.instagram a:before {
+       background-image: url(../images/instagram-footer@2x.png);
+    
+    }
+    .page-footer .social-media-links li.instagram a:hover:before {
+       background-image: url(../images/instagram-footer-over@2x.png);
+    
+    }
+    
+}

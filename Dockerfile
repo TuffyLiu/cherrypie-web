@@ -9,7 +9,7 @@ RUN apk add nodejs-lts@edge \
   && npm install cnpm -g --registry=https://registry.npm.taobao.org \
   ## install packages
   && cnpm install --registry=https://registry.npm.taobao.org \
-  && npm run build
+  && npm run build \
   ## clear unused packages and files
   && rm -f package.json \
   && apk del git \

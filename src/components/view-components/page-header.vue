@@ -1,14 +1,27 @@
 <!--
-    @file:登录成功后所有子模块的父组件,包含左侧导航栏,顶部菜单栏等
+    @file:顶部搜索框和logo
 -->
 <template>
-    <header id="header" class="page-header">
+    <header class="page-header">
         <div class="header content">
             <span data-action="toggle-nav" class="action nav-toggle"><span>Toggle Nav</span></span>
             <strong class="logo">
                 <img src="http://www.elumdesigns.com/pub/static/version1507062855/frontend/Elum/default/en_US/images/logo.svg" alt="Elum Designs" width="189" height="64">
             </strong>
-            <div class="header-content-right">
+            <div class="block block-search">
+                <div class="field search">
+                    <label class="label" for="search">
+                        <span>Search</span>
+                    </label>
+                    <div class="control">
+                        <input type="text" name="q" autocomplete="off" placeholder="search">
+                    </div>
+                </div>
+                <div class="actions">
+                    <button type="submit" title="Search" class="action search" >
+                        <span>Search</span>
+                    </button>
+                </div>
 
             </div>
         </div>
@@ -27,7 +40,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    #page-header{
-
-    }
 </style>

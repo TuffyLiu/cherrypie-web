@@ -9,6 +9,7 @@
 
 <script>
 import pageHeader from '../view-components/page-header.vue';
+import navSections from '../view-components/nav-sections.vue';
 export default {
     name: 'home',
     data () {

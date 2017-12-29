@@ -1,23 +1,23 @@
 .ub-mega-menu ul.level0 li.mega a.mega.has-child span.menu-title,
 .ub-mega-menu ul.level0 li.mega.has-child>a.mega span.menu-title {
-    background: url('../Ubertheme_UbMegaMenu/images/bg-has-child.png') no-repeat right 2px
+    /*background: url('../Ubertheme_UbMegaMenu/images/bg-has-child.png') no-repeat right 2px*/
 }
 
 .ub-mega-menu ul.level0 li.mega.active a.mega.has-child span.menu-title,
 .ub-mega-menu ul.level0 li.mega.mega-hover a.mega.has-child span.menu-title,
 .ub-mega-menu ul.level0 li.mega.has-child.mega-hover>a.mega span.menu-title {
-    background: url('../Ubertheme_UbMegaMenu/images/bg-has-child.png') no-repeat right -48px
+    /*background: url('../Ubertheme_UbMegaMenu/images/bg-has-child.png') no-repeat right -48px*/
 }
 
 .ub-mega-menu ul.level0 ul.level1 li.mega a.mega.has-child span.menu-title,
 .ub-mega-menu ul.level0 ul.level1 li.mega.has-child>a.mega span.menu-title {
-    background: url('../images/icon-triangle-right.png') no-repeat 8px 4px;
+    /*background: url('../images/icon-triangle-right.png') no-repeat 8px 4px;*/
     background-position: right 15px !important
 }
 
 .ub-mega-menu ul.level0 li.mega.mega-hover a.mega.has-child span.menu-title:after,
 .ub-mega-menu ul.level0 li.mega.has-child.mega-hover>a.mega span.menu-title:after {
-    background: url('../icon-triangle-right.png') no-repeat center bottom
+    /*background: url('../icon-triangle-right.png') no-repeat center bottom*/
 }
 
 .ub-mega-menu ul.level0 ul.level1 li.mega.mega-hover a.mega.has-child span.menu-title:after,
@@ -27,27 +27,27 @@
 
 .ub-mega-menu ul.level0 li.mega.style-1.mega-hover a.mega.has-child span.menu-title:after,
 .ub-mega-menu ul.level0 li.mega.style-1.has-child.mega-hover>a.mega span.menu-title:after {
-    background: url('../Ubertheme_UbMegaMenu/images/has-sub-2.png') no-repeat center bottom
+    /*background: url('../Ubertheme_UbMegaMenu/images/has-sub-2.png') no-repeat center bottom*/
 }
 
 @media only screen and (max-width:1024px) {
     .ub-mega-menu ul.level0 li.mega.style-1.mega-hover a.mega.has-child span.menu-title:after,
     .ub-mega-menu ul.level0 li.mega.style-1.has-child.mega-hover>a.mega span.menu-title:after {
-        background: url('../Ubertheme_UbMegaMenu/images/has-sub.png') no-repeat center bottom
+        /*background: url('../Ubertheme_UbMegaMenu/images/has-sub.png') no-repeat center bottom*/
     }
 }
 
 .ub-mega-menu ul.level0 li.mega.style-1 ul.level3 li.mega a.mega {
-    background-image: url('../Ubertheme_UbMegaMenu/images/bg-bullet.png')
+    /*background-image: url('../Ubertheme_UbMegaMenu/images/bg-bullet.png')*/
 }
 
 .ub-mega-menu ul.level0 li.mega.style-2 ul.level2 li.mega a.mega {
-    background-image: url('../Ubertheme_UbMegaMenu/images/bg-bullet.png')
+    /*background-image: url('../Ubertheme_UbMegaMenu/images/bg-bullet.png')*/
 }
 
 .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega a.mega.has-child span.menu-title,
 .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.has-child>a.mega span.menu-title {
-    background: url('../images/icon-triangle-right.png') no-repeat 8px 4px;
+    /*background: url('../images/icon-triangle-right.png') no-repeat 8px 4px;*/
     background-position: right 15px !important
 }
 
@@ -58,42 +58,42 @@
 
 .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.mega-hover a.mega.has-child span.menu-title:after,
 .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.has-child.mega-hover>a.mega span.menu-title:after {
-    background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub.png') no-repeat right 50%
+    /*background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub.png') no-repeat right 50%*/
 }
 
 .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.mega-hover a.mega.has-child span.menu-title:after,
 .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child.mega-hover>a.mega span.menu-title:after {
-    background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub-2.png') no-repeat right 50%
+    /*background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub-2.png') no-repeat right 50%*/
 }
 
 .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega a.mega.has-child span.menu-title,
 .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.has-child>a.mega span.menu-title {
-    background: url('../Ubertheme_UbMegaMenu/images/ver-bg-has-child-right.png') no-repeat left 0px !important
+    /*background: url('../Ubertheme_UbMegaMenu/images/ver-bg-has-child-right.png') no-repeat left 0px !important*/
 }
 
 .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega a.mega.has-child:hover span.menu-title,
 .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.has-child:hover>a.mega span.menu-title {
-    background: url('../Ubertheme_UbMegaMenu/images/ver-bg-has-child-right.png') no-repeat left -48px !important
+    /*background: url('../Ubertheme_UbMegaMenu/images/ver-bg-has-child-right.png') no-repeat left -48px !important*/
 }
 
 .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.mega-hover a.mega.has-child span.menu-title:after,
 .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.has-child.mega-hover>a.mega span.menu-title:after {
-    background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub-right.png') no-repeat left 50%
+    /*background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub-right.png') no-repeat left 50%*/
 }
 
 .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.mega-hover a.mega.has-child span.menu-title:after,
 .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child.mega-hover>a.mega span.menu-title:after {
-    background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub-2-right.png') no-repeat left 50%
+    /*background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub-2-right.png') no-repeat left 50%*/
 }
 
 @media only screen and (max-width:960px) {
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.mega-hover a.mega.has-child span.menu-title:after,
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child.mega-hover>a.mega span.menu-title:after {
-        background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub.png') no-repeat right 50%
+        /*background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub.png') no-repeat right 50%*/
     }
     .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.mega-hover a.mega.has-child span.menu-title:after,
     .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child.mega-hover>a.mega span.menu-title:after {
-        background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub-right.png') no-repeat left 50%
+        /*background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub-right.png') no-repeat left 50%*/
     }
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega a.mega.has-child span.menu-title,
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.has-child>a.mega span.menu-title {
@@ -114,7 +114,7 @@
 }
 
 .ub-mega-menu ul.level0 li.mega span.menu-parent-icon {
-    background: url('../Ubertheme_UbMegaMenu/images/mobile-arrow.png') no-repeat right -50px
+    /*background: url('../Ubertheme_UbMegaMenu/images/mobile-arrow.png') no-repeat right -50px*/
 }
 
 .jaws.ub-mega-menu li.mega .child-content {
@@ -736,7 +736,7 @@
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    background: url(owl.video.play.png) no-repeat;
+    /*background: url(owl.video.play.png) no-repeat;*/
     cursor: pointer;
     z-index: 1;
     transition: scale 100ms ease
@@ -4378,7 +4378,7 @@ print {
         box-sizing: border-box
     }
     .instagram-related-product-list .products-grid .product-items .shop-social-links .shop-social-actions .instagram-related-post-link {
-        background-image: url('../images/icon-instagram-logo.png');
+        /*background-image: url('../images/icon-instagram-logo.png');*/
         background-color: transparent;
         background-repeat: no-repeat;
         background-position: 0 0;
@@ -4399,7 +4399,7 @@ print {
         width: 1px
     }
     .instagram-related-product-list .products-grid .product-items .shop-social-links .shop-social-actions .misc-link {
-        background-image: url('../images/icon-instagram-misc.png');
+        /*background-image: url('../images/icon-instagram-misc.png');*/
         background-color: transparent;
         background-repeat: no-repeat;
         background-position: center center;
@@ -4432,7 +4432,7 @@ print {
         position: relative
     }
     .instagram-related-product-list .products-grid .product-items .shop-social-links .shop-social-actions .total-likes:before {
-        background-image: url('../images/icon-instagram-like-outline.png');
+        /*background-image: url('../images/icon-instagram-like-outline.png');*/
         background-color: transparent;
         background-repeat: no-repeat;
         background-position: center center;
@@ -6512,7 +6512,7 @@ textarea:not([disabled]):focus {
     text-transform: uppercase;
     font-weight: 600;
     padding: 8px 15px 8px 40px;
-    background: #428bca url('../images/shop.png') no-repeat 15px center;
+    /*background: #428bca url('../images/shop.png') no-repeat 15px center;*/
     background-size: 18px;
     margin-bottom: 20px
 }
@@ -6545,11 +6545,11 @@ textarea:not([disabled]):focus {
 }
 
 .storelocator-wrapper .mgs-search-box .search-tab.search-distance {
-    background: #868686 url('../images/distance.png') no-repeat 3px 3px
+    /*background: #868686 url('../images/distance.png') no-repeat 3px 3px*/
 }
 
 .storelocator-wrapper .mgs-search-box .search-tab.search-area {
-    background: #868686 url('../images/area.png') no-repeat 3px 3px
+    /*background: #868686 url('../images/area.png') no-repeat 3px 3px*/
 }
 
 .storelocator-wrapper .mgs-search-box .search-tab.active {
@@ -7095,7 +7095,7 @@ textarea:not([disabled]):focus {
 }
 
 h2.title-page {
-    background: #e5e3e2 url('../images/shop.png') no-repeat 15px center;
+    /*background: #e5e3e2 url('../images/shop.png') no-repeat 15px center;*/
     background-size: 18px;
     color: #7d716d;
     font-size: 16px;
@@ -7154,39 +7154,39 @@ h2.title-page {
 }
 
 .custom-popup ul.vertical li.car {
-    background: url('../images/sprite-icon.png') no-repeat center -40px
+    /*background: url('../images/sprite-icon.png') no-repeat center -40px*/
 }
 
 .custom-popup ul.vertical li.car:hover,
 .custom-popup ul.vertical li.car.active {
-    background: url('../images/sprite-icon.png') no-repeat center -60px
+    /*background: url('../images/sprite-icon.png') no-repeat center -60px*/
 }
 
 .custom-popup ul.vertical li.bus {
-    background: url('../images/sprite-icon.png') no-repeat center -80px
+    /*background: url('../images/sprite-icon.png') no-repeat center -80px*/
 }
 
 .custom-popup ul.vertical li.bus:hover,
 .custom-popup ul.vertical li.bus.active {
-    background: url('../images/sprite-icon.png') no-repeat center -100px
+    /*background: url('../images/sprite-icon.png') no-repeat center -100px*/
 }
 
 .custom-popup ul.vertical li.walk {
-    background: url('../images/sprite-icon.png') no-repeat center -120px
+    /*background: url('../images/sprite-icon.png') no-repeat center -120px*/
 }
 
 .custom-popup ul.vertical li.walk:hover,
 .custom-popup ul.vertical li.walk.active {
-    background: url('../images/sprite-icon.png') no-repeat center -140px
+    /*background: url('../images/sprite-icon.png') no-repeat center -140px*/
 }
 
 .custom-popup ul.vertical li.bicycle {
-    background: url('../images/sprite-icon.png') no-repeat center -160px
+    /*background: url('../images/sprite-icon.png') no-repeat center -160px*/
 }
 
 .custom-popup ul.vertical li.bicycle:hover,
 .custom-popup ul.vertical li.bicycle.active {
-    background: url('../images/sprite-icon.png') no-repeat center -180px
+    /*background: url('../images/sprite-icon.png') no-repeat center -180px*/
 }
 
 .custom-popup .directions-tool {
@@ -7205,7 +7205,7 @@ h2.title-page {
 }
 
 .custom-popup .directions-tool .widget-directions-searchbox-handle .widget-directions-icon {
-    background: transparent url('../images/omnibox-sprite.png') no-repeat -2px -31px;
+    /*background: transparent url('../images/omnibox-sprite.png') no-repeat -2px -31px;*/
     background-size: 20px 100px;
     width: 16px;
     height: 17px;
@@ -7261,7 +7261,7 @@ h2.title-page {
 
 .custom-popup .directions-tool .widget-directions-right-overlay button {
     text-indent: -10000px;
-    background: transparent url('../images/omnibox-sprite.png') no-repeat center -64px;
+    /*background: transparent url('../images/omnibox-sprite.png') no-repeat center -64px;*/
     width: 20px;
     border: none;
     box-shadow: none;
@@ -7335,7 +7335,7 @@ h2.title-page {
 }
 
 .location-box-view .widget-mylocation .widget-mylocation-button .widget-mylocation-cookieless {
-    background: url('../images/geolocation_resize.png') no-repeat 0 0;
+    /*background: url('../images/geolocation_resize.png') no-repeat 0 0;*/
     background-attachment: scroll;
     display: block;
     height: 18px;
@@ -7430,7 +7430,7 @@ h2.title-page {
     text-transform: capitalize;
     font-weight: 600;
     padding: 8px 15px 8px 40px;
-    background: #428bca url('../images/Shop_Info.png') no-repeat 15px center;
+    /*background: #428bca url('../images/Shop_Info.png') no-repeat 15px center;*/
     background-size: 18px;
     margin: 0 0 15px
 }

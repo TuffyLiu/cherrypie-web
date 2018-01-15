@@ -4,6 +4,7 @@
 <template>
     <div id="home">
         <page-header></page-header>
+        <nav-sections></nav-sections>
     </div>
 </template>
 
@@ -17,7 +18,8 @@ export default {
         };
     },
     components: {
-        'page-header': pageHeader
+        'page-header': pageHeader,
+        'nav-sections': navSections
     }
 };
 </script>

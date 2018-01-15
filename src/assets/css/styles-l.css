@@ -4,8 +4,8 @@
 }
 
 .ub-mega-menu ul.level0 li.mega.active a.mega.has-child span.menu-title,
-.ub-mega-menu ul.level0 li.mega.mega-hover a.mega.has-child span.menu-title,
-.ub-mega-menu ul.level0 li.mega.has-child.mega-hover>a.mega span.menu-title {
+.ub-mega-menu ul.level0 li.mega:hover a.mega.has-child span.menu-title,
+.ub-mega-menu ul.level0 li.mega.has-child:hover>a.mega span.menu-title {
     /*background: url('../Ubertheme_UbMegaMenu/images/bg-has-child.png') no-repeat right -48px*/
 }
 
@@ -15,24 +15,24 @@
     background-position: right 15px !important
 }
 
-.ub-mega-menu ul.level0 li.mega.mega-hover a.mega.has-child span.menu-title:after,
-.ub-mega-menu ul.level0 li.mega.has-child.mega-hover>a.mega span.menu-title:after {
+.ub-mega-menu ul.level0 li.mega:hover a.mega.has-child span.menu-title:after,
+.ub-mega-menu ul.level0 li.mega.has-child:hover>a.mega span.menu-title:after {
     /*background: url('../icon-triangle-right.png') no-repeat center bottom*/
 }
 
-.ub-mega-menu ul.level0 ul.level1 li.mega.mega-hover a.mega.has-child span.menu-title:after,
-.ub-mega-menu ul.level0 ul.level1 li.mega.has-child.mega-hover>a.mega span.menu-title:after {
+.ub-mega-menu ul.level0 ul.level1 li.mega:hover a.mega.has-child span.menu-title:after,
+.ub-mega-menu ul.level0 ul.level1 li.mega.has-child:hover>a.mega span.menu-title:after {
     background: 3
 }
 
-.ub-mega-menu ul.level0 li.mega.style-1.mega-hover a.mega.has-child span.menu-title:after,
-.ub-mega-menu ul.level0 li.mega.style-1.has-child.mega-hover>a.mega span.menu-title:after {
+.ub-mega-menu ul.level0 li.mega.style-1:hover a.mega.has-child span.menu-title:after,
+.ub-mega-menu ul.level0 li.mega.style-1.has-child:hover>a.mega span.menu-title:after {
     /*background: url('../Ubertheme_UbMegaMenu/images/has-sub-2.png') no-repeat center bottom*/
 }
 
 @media only screen and (max-width:1024px) {
-    .ub-mega-menu ul.level0 li.mega.style-1.mega-hover a.mega.has-child span.menu-title:after,
-    .ub-mega-menu ul.level0 li.mega.style-1.has-child.mega-hover>a.mega span.menu-title:after {
+    .ub-mega-menu ul.level0 li.mega.style-1:hover a.mega.has-child span.menu-title:after,
+    .ub-mega-menu ul.level0 li.mega.style-1.has-child:hover>a.mega span.menu-title:after {
         /*background: url('../Ubertheme_UbMegaMenu/images/has-sub.png') no-repeat center bottom*/
     }
 }
@@ -56,13 +56,13 @@
     background: none
 }
 
-.ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.mega-hover a.mega.has-child span.menu-title:after,
-.ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.has-child.mega-hover>a.mega span.menu-title:after {
+.ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega:hover a.mega.has-child span.menu-title:after,
+.ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.has-child:hover>a.mega span.menu-title:after {
     /*background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub.png') no-repeat right 50%*/
 }
 
-.ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.mega-hover a.mega.has-child span.menu-title:after,
-.ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child.mega-hover>a.mega span.menu-title:after {
+.ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1:hover a.mega.has-child span.menu-title:after,
+.ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child:hover>a.mega span.menu-title:after {
     /*background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub-2.png') no-repeat right 50%*/
 }
 
@@ -76,23 +76,23 @@
     /*background: url('../Ubertheme_UbMegaMenu/images/ver-bg-has-child-right.png') no-repeat left -48px !important*/
 }
 
-.page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.mega-hover a.mega.has-child span.menu-title:after,
-.page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.has-child.mega-hover>a.mega span.menu-title:after {
+.page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega:hover a.mega.has-child span.menu-title:after,
+.page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.has-child:hover>a.mega span.menu-title:after {
     /*background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub-right.png') no-repeat left 50%*/
 }
 
-.page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.mega-hover a.mega.has-child span.menu-title:after,
-.page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child.mega-hover>a.mega span.menu-title:after {
+.page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1:hover a.mega.has-child span.menu-title:after,
+.page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child:hover>a.mega span.menu-title:after {
     /*background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub-2-right.png') no-repeat left 50%*/
 }
 
 @media only screen and (max-width:960px) {
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.mega-hover a.mega.has-child span.menu-title:after,
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child.mega-hover>a.mega span.menu-title:after {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1:hover a.mega.has-child span.menu-title:after,
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child:hover>a.mega span.menu-title:after {
         /*background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub.png') no-repeat right 50%*/
     }
-    .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.mega-hover a.mega.has-child span.menu-title:after,
-    .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child.mega-hover>a.mega span.menu-title:after {
+    .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1:hover a.mega.has-child span.menu-title:after,
+    .page-layout-2columns-right .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child:hover>a.mega span.menu-title:after {
         /*background: url('../Ubertheme_UbMegaMenu/images/ver-has-sub-right.png') no-repeat left 50%*/
     }
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega a.mega.has-child span.menu-title,
@@ -133,7 +133,7 @@
     -webkit-transition: opacity .4s, -webkit-transform .6s, max-height .6s
 }
 
-.jaws.ub-mega-menu li.has-child.mega-hover>.child-content {
+.jaws.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -164,7 +164,7 @@
     -webkit-transition: opacity .4s, -webkit-transform .6s, max-height .6s
 }
 
-.fence.ub-mega-menu li.has-child.mega-hover>.child-content {
+.fence.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -197,7 +197,7 @@
     -webkit-transition: opacity .4s, -webkit-transform .6s, max-height .6s
 }
 
-.venitian.ub-mega-menu li.has-child.mega-hover>.child-content {
+.venitian.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -229,7 +229,7 @@
     -webkit-transition: opacity .4s, -webkit-transform .6s, max-height .6s
 }
 
-.fly.ub-mega-menu li.has-child.mega-hover>.child-content {
+.fly.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -260,7 +260,7 @@
     -webkit-transition: opacity .4s, -webkit-transform .6s, max-height .6s
 }
 
-.papercut.ub-mega-menu li.has-child.mega-hover>.child-content {
+.papercut.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -291,7 +291,7 @@
     -webkit-transition: opacity .4s, -webkit-transform .6s, max-height .6s
 }
 
-.fan.ub-mega-menu li.has-child.mega-hover>.child-content {
+.fan.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -322,7 +322,7 @@
     -webkit-transition: opacity .4s, -webkit-transform .6s, max-height .6s
 }
 
-.wave.ub-mega-menu li.has-child.mega-hover>.child-content {
+.wave.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -348,7 +348,7 @@
     -webkit-transition: opacity .4s, -webkit-transform .6s, max-height .6s
 }
 
-.helix.ub-mega-menu li.has-child.mega-hover>.child-content {
+.helix.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -379,7 +379,7 @@
     -webkit-transition-timing-function: cubic-bezier(0, .35, .5, 1.5)
 }
 
-.pop.ub-mega-menu li.has-child.mega-hover>.child-content {
+.pop.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -410,7 +410,7 @@
     -webkit-transition-timing-function: cubic-bezier(0, .35, .5, 1.7)
 }
 
-.linear.ub-mega-menu li.has-child.mega-hover>.child-content {
+.linear.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -441,7 +441,7 @@
     -webkit-transition-timing-function: cubic-bezier(0, .35, .5, 1.7)
 }
 
-.bounce.ub-mega-menu li.has-child.mega-hover>.child-content {
+.bounce.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -472,7 +472,7 @@
     -webkit-transition: opacity .4s, -webkit-transform .6s, max-height .6s
 }
 
-.radial.ub-mega-menu li.has-child.mega-hover>.child-content {
+.radial.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -503,7 +503,7 @@
     -webkit-transition: opacity .4s, -webkit-transform .6s, max-height .6s
 }
 
-.winding.ub-mega-menu li.has-child.mega-hover>.child-content {
+.winding.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -539,7 +539,7 @@
     -webkit-transition-timing-function: cubic-bezier(0, .35, .5, 1.7)
 }
 
-.shield.ub-mega-menu li.has-child.mega-hover>.child-content {
+.shield.ub-mega-menu li.has-child:hover>.child-content {
     max-height: 1000px;
     -moz-transform: none;
     -ms-transform: none;
@@ -2038,10 +2038,10 @@ print {
         max-width: 726px;
         padding: 0
     }
-    .ub-mega-menu ul.level0 li.mega.mega-hover a.mega {
+    .ub-mega-menu ul.level0 li.mega:hover a.mega {
         z-index: 16
     }
-    .ub-mega-menu ul.level0 li.mega.mega-hover .child-content {
+    .ub-mega-menu ul.level0 li.mega:hover .child-content {
         z-index: 15
     }
     .ub-mega-menu ul.level0 li.mega.one-column {
@@ -4549,15 +4549,15 @@ print {
         color: #5F5653;
         font-weight: 400
     }
-    .ub-mega-menu ul.level0 li.mega.mega-hover>a.mega {
+    .ub-mega-menu ul.level0 li.mega:hover>a.mega {
         color: #7D716D;
         font-weight: 300
     }
-    .ub-mega-menu ul.level0 li.mega.mega-hover>a.mega.ui-state-active,
-    .ub-mega-menu ul.level0 li.mega.mega-hover>a.mega.active,
-    .ub-mega-menu ul.level0 li.mega.mega-hover>a.mega:active,
-    .ub-mega-menu ul.level0 li.mega.mega-hover>a.mega:focus,
-    .ub-mega-menu ul.level0 li.mega.mega-hover>a.mega:hover {
+    .ub-mega-menu ul.level0 li.mega:hover>a.mega.ui-state-active,
+    .ub-mega-menu ul.level0 li.mega:hover>a.mega.active,
+    .ub-mega-menu ul.level0 li.mega:hover>a.mega:active,
+    .ub-mega-menu ul.level0 li.mega:hover>a.mega:focus,
+    .ub-mega-menu ul.level0 li.mega:hover>a.mega:hover {
         color: #5F5653;
         font-weight: 400
     }
@@ -4579,12 +4579,12 @@ print {
         background: none
     }
     .ub-mega-menu ul.level0 li.mega.active a.mega.has-child span.menu-title,
-    .ub-mega-menu ul.level0 li.mega.mega-hover a.mega.has-child span.menu-title,
-    .ub-mega-menu ul.level0 li.mega.has-child.mega-hover>a.mega span.menu-title {
+    .ub-mega-menu ul.level0 li.mega:hover a.mega.has-child span.menu-title,
+    .ub-mega-menu ul.level0 li.mega.has-child:hover>a.mega span.menu-title {
         background: none
     }
-    .ub-mega-menu ul.level0 li.mega.mega-hover a.mega.has-child span.menu-title:after,
-    .ub-mega-menu ul.level0 li.mega.has-child.mega-hover>a.mega span.menu-title:after {
+    .ub-mega-menu ul.level0 li.mega:hover a.mega.has-child span.menu-title:after,
+    .ub-mega-menu ul.level0 li.mega.has-child:hover>a.mega span.menu-title:after {
         background: none
     }
     .ub-mega-menu ul.level0 li.mega a.mega.has-child span:after {
@@ -4854,7 +4854,7 @@ print {
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega .menu-desc img {
         max-width: 95%
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.mega-hover .child-content {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega:hover .child-content {
         position: absolute !important;
         display: block !important
     }
@@ -4914,13 +4914,13 @@ print {
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega .child-content {
         display: none !important
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega.has-child.mega-hover a.mega {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega.has-child:hover a.mega {
         z-index: 19
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega.has-child.mega-hover a.mega span:after {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega.has-child:hover a.mega span:after {
         display: block
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega.has-child.mega-hover .child-content {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega.has-child:hover .child-content {
         display: block !important
     }
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega a.mega {
@@ -4929,13 +4929,13 @@ print {
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega .child-content {
         display: none !important
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega.has-child.mega-hover a.mega {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega.has-child:hover a.mega {
         z-index: 19
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega.has-child.mega-hover a.mega span:after {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega.has-child:hover a.mega span:after {
         display: block
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega.has-child.mega-hover .child-content {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega.has-child:hover .child-content {
         display: block !important
     }
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega {
@@ -4951,13 +4951,13 @@ print {
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega .child-content {
         display: none !important
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega.has-child.mega-hover a.mega {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega.has-child:hover a.mega {
         z-index: 20
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega.has-child.mega-hover a.mega span:after {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega.has-child:hover a.mega span:after {
         display: block
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega.has-child.mega-hover .child-content {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega.has-child:hover .child-content {
         display: block !important;
         left: 117%;
         z-index: 19
@@ -4965,19 +4965,19 @@ print {
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega .child-content {
         display: none !important
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega.has-child.mega-hover a.mega span:after {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega.has-child:hover a.mega span:after {
         display: block
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega.has-child.mega-hover .child-content {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega.has-child:hover .child-content {
         display: block !important
     }
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega ul.level5 li.mega .child-content {
         display: none !important
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega ul.level5 li.mega.has-child.mega-hover a.mega span:after {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega ul.level5 li.mega.has-child:hover a.mega span:after {
         display: block
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega ul.level5 li.mega.has-child.mega-hover .child-content {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega ul.level5 li.mega.has-child:hover .child-content {
         display: block !important
     }
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child a.mega span:after {
@@ -5338,7 +5338,7 @@ print {
         display: block;
         top: 0
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.mega-hover .child-content {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega:hover .child-content {
         display: block !important;
         z-index: 11
     }
@@ -5372,7 +5372,7 @@ print {
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega .child-content .child-content-inner-wrap .child-content-inner ul.level1 li.mega .group .group-title a {
         font-weight: 700
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega .child-content .child-content-inner-wrap .child-content-inner ul.level1 li.mega.mega-hover a.mega {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega .child-content .child-content-inner-wrap .child-content-inner ul.level1 li.mega:hover a.mega {
         z-index: 19
     }
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega .child-content .child-content-inner-wrap .child-content-inner ul.level1 li.mega.mega-products {
@@ -5411,29 +5411,29 @@ print {
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega .child-content .child-content-inner-wrap .child-content-inner ul.level1 ul.level2 li.mega a.mega.active {
         color: #ff5501
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega .child-content .child-content-inner-wrap .child-content-inner ul.level1 ul.level2 li.mega.has-child.mega-hover a.mega {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega .child-content .child-content-inner-wrap .child-content-inner ul.level1 ul.level2 li.mega.has-child:hover a.mega {
         z-index: 20
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega .child-content .child-content-inner-wrap .child-content-inner ul.level1 ul.level2 li.mega.has-child.mega-hover .child-content {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega .child-content .child-content-inner-wrap .child-content-inner ul.level1 ul.level2 li.mega.has-child:hover .child-content {
         z-index: 19;
         left: 100%
     }
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega .child-content {
         display: none !important
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega.has-child.mega-hover a.mega span:after {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega.has-child:hover a.mega span:after {
         display: block
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega.has-child.mega-hover .child-content {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega.has-child:hover .child-content {
         display: block !important
     }
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega .child-content {
         display: none !important
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega.has-child.mega-hover a.mega span:after {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega.has-child:hover a.mega span:after {
         display: block
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega.has-child.mega-hover .child-content {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega.has-child:hover .child-content {
         display: block !important
     }
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega {
@@ -5447,13 +5447,13 @@ print {
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega .child-content {
         display: none !important
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega.has-child.mega-hover a.mega {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega.has-child:hover a.mega {
         z-index: 21
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega.has-child.mega-hover a.mega span:after {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega.has-child:hover a.mega span:after {
         display: block
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega.has-child.mega-hover .child-content {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega.has-child:hover .child-content {
         display: block !important;
         z-index: 20;
         left: 100%
@@ -5461,19 +5461,19 @@ print {
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega .child-content {
         display: none !important
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega.has-child.mega-hover a.mega span:after {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega.has-child:hover a.mega span:after {
         display: block
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega.has-child.mega-hover .child-content {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega.has-child:hover .child-content {
         display: block !important
     }
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega ul.level5 li.mega .child-content {
         display: none !important
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega ul.level5 li.mega.has-child.mega-hover a.mega span:after {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega ul.level5 li.mega.has-child:hover a.mega span:after {
         display: block
     }
-    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega ul.level5 li.mega.has-child.mega-hover .child-content {
+    .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega ul.level1 li.mega ul.level2 li.mega ul.level3 li.mega ul.level4 li.mega ul.level5 li.mega.has-child:hover .child-content {
         display: block !important
     }
     .ub-mega-menu-vertical .ub-mega-menu ul.level0 li.mega.style-1.has-child a.mega span:after {

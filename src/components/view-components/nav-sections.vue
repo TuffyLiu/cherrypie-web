@@ -8,18 +8,18 @@
                 <div class="ub-mega-menu-wrapper">
                     <div class="none ub-mega-menu clearfix">
                         <ul class="mega-menu level0 ui-menu ui-widget ui-widget-content ui-corner-all">
-                            <li class="mega first has-child ui-menu-item mega-hover">
-                                <a href="" class="mega first has-child ui-corner-all">
-                                    <span class="menu-title">New</span>
+                            <li class="mega first has-child ui-menu-item " v-for="(item, index) in menu" :key="index" style="">
+                                <a :href="item.href" class="mega first has-child ui-corner-all" :title="item.title">
+                                    <span class="menu-title">{{item.title}}</span>
                                 </a>
-                                <div class="child-content cols3">
+                                <div class="child-content cols3" v-if="item.group">
                                     <div class="child-content-inner-wrap">
-                                        <div class="child-content-inner clearfix">
-                                            <div class="mega-col column1 first">
+                                        <div class="child-content-inner clearfix" >
+                                            <div class="mega-col column" v-for="(group, indexg) in item.group" :key="indexg" >
                                                 <ul class="mega-menu level1 mega-sub-menu ui-menu ui-widget ui-widget-content ui-corner-all">
-                                                    <li class="mega first group ui-menu-item">
-                                                        <a href="" class="mega first ui-corner-all">
-                                                            <span class="menu-title">New Mini Notes</span>
+                                                    <li class="mega group ui-menu-item" v-for="(link, indexl) in group" :key="indexl">
+                                                        <a :href="link.href" class="mega  ui-corner-all" :title="link.title">
+                                                            <span class="menu-title">{{link.title}}</span>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -41,6 +41,108 @@ export default {
     name: 'nav-sections',
     data () {
         return {
+            menu: [
+                {
+                    title: 'New',
+                    href: '',
+                    group: [
+                        [
+                            {
+                                title: 'New Mini Notes',
+                                href: ''
+                            }
+                        ]
+                    ]
+                },
+                {
+                    title: 'LETTERPRESS CARDS & GOODS',
+                    href: '',
+                    group: [
+                        [
+                            {
+                                title: 'Greeting Cards',
+                                href: ''
+                            },
+                            {
+                                title: 'Letterpress Journals',
+                                href: ''
+                            },
+                            {
+                                title: 'Letterpress Journals',
+                                href: ''
+                            },
+                            {
+                                title: 'Letterpress Journals',
+                                href: ''
+                            }
+                        ],
+                        [
+                            {
+                                title: 'Greeting Cards',
+                                href: ''
+                            },
+                            {
+                                title: 'Letterpress Journals',
+                                href: ''
+                            },
+                            {
+                                title: 'Letterpress Journals',
+                                href: ''
+                            },
+                            {
+                                title: 'Letterpress Journals',
+                                href: ''
+                            }
+                        ]
+                    ]
+                },
+                {
+                    title: 'Desk & Gift',
+                    href: '',
+                    group: [
+                        [
+                            {
+                                title: 'Journals & Sketchbooks ',
+                                href: ''
+                            },
+                            {
+                                title: 'Journals & Sketchbooks ',
+                                href: ''
+                            },
+                            {
+                                title: 'Journals & Sketchbooks ',
+                                href: ''
+                            },
+                            {
+                                title: 'Journals & Sketchbooks ',
+                                href: ''
+                            }
+                        ],
+                        [
+                            {
+                                title: 'Bijou Collection',
+                                href: ''
+                            },
+                            {
+                                title: 'Letterpress Journals',
+                                href: ''
+                            },
+                            {
+                                title: 'Letterpress Journals',
+                                href: ''
+                            },
+                            {
+                                title: 'Letterpress Journals',
+                                href: ''
+                            }
+                        ]
+                    ]
+                },
+                {
+                    title: 'Custom Letterpress',
+                    href: ''
+                }
+            ]
         };
     }
 };
@@ -48,7 +150,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    #page-header{
-
+    .column{
+        width: 600px;
     }
 </style>

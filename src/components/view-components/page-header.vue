@@ -2,7 +2,7 @@
     @file:顶部搜索框和logo
 -->
 <template>
-    <header class="page-header">
+    <header class="page-header" style="padding-bottom: 0px;">
         <div class="header content">
             <span data-action="toggle-nav" class="action nav-toggle"><span>Toggle Nav</span></span>
             <strong class="logo">

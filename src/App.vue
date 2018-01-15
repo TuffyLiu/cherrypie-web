@@ -1,22 +1,19 @@
 <template>
-  <div id="app">
+  <div class="page-wrapper">
+    <page-header></page-header>
+    <nav-sections></nav-sections>
     <router-view/>
   </div>
 </template>
 
 <script>
+import pageHeader from './components/view-components/page-header.vue';
+import navSections from './components/view-components/nav-sections.vue';
 export default {
-    name: 'app'
+    name: 'app',
+    components: {
+        'page-header': pageHeader,
+        'nav-sections': navSections
+    }
 };
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

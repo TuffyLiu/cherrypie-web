@@ -6036,13 +6036,13 @@ button {
     max-width: 1200px;
     margin: auto
 }
-
+.VueCarousel-dot--active .VueCarousel-dot-inner,
 .cms-home .owl-theme .owl-dots .owl-dot.active span {
     background: #FFF;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.16);
     border-color: transparent
 }
-
+.VueCarousel-dot-inner,
 .cms-home .owl-theme .owl-dots .owl-dot span {
     background: transparent;
     border: 2px solid #fff;

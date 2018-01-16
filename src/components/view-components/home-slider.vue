@@ -2,20 +2,18 @@
     @file:登录成功后所有子模块的父组件,包含左侧导航栏,顶部菜单栏等
 -->
 <template>
-    <div class="home-slider home-section">
+    <div class="home-slider home-section" id="home-slider">
         <div class="slider-desktop">
             <div class="custom-slider">
-                <carousel>
-                    <slide>
+                <carousel :perPage="1" :paginationSize="14" :paginationPadding="5" :paginationActiveColor="'#ffffff'" :paginationColor="'transparent'" :loop="true">
+                    <slide v-for="(item, index) in banner" :key="index">
                         <div class="banner-item">
-
+                            <a :href="item.href">
+                                <span class="banner-image">
+                                    <img :src="item.imgage" :alt="item.title" :title="item.title">
+                                </span>
+                            </a>
                         </div>
-                    </slide>
-                    <slide>
-                      Slide 2 Content
-                    </slide>
-                    <slide>
-                      Slide 2 Content
                     </slide>
                 </carousel>
             </div>
@@ -29,6 +27,23 @@ export default {
     name: 'home-slider',
     data () {
         return {
+            banner: [
+                {
+                    href: '#',
+                    imgage: 'static/img/0926_banner1.jpg',
+                    title: 'Elum Fall Look Book - Clean Lines'
+                },
+                {
+                    href: '#',
+                    imgage: 'static/img/0926_banner2.jpg',
+                    title: 'Elum Fall Look Book - Clean Lines'
+                },
+                {
+                    href: '#',
+                    imgage: 'static/img/0926_banner3.jpg',
+                    title: 'Elum Fall Look Book - Clean Lines'
+                }
+            ]
         };
     },
     components: {
@@ -37,3 +52,10 @@ export default {
     }
 };
 </script>
+<style >
+    #home-slider .VueCarousel-pagination{
+        position: absolute;
+        bottom: 5px;
+        text-align: right;
+    }
+</style>

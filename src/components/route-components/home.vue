@@ -6,6 +6,8 @@
         <div class="columns">
             <div class="column main">
                 <home-slider></home-slider>
+                <home-featured></home-featured>
+                <home-latest-products></home-latest-products>
             </div>
 
         </div>
@@ -14,6 +16,8 @@
 
 <script>
 import homeSlider from '../view-components/home-slider.vue';
+import homeFeatured from '../view-components/home-featured.vue';
+import homeLatestProducts from '../view-components/home-latest-products.vue';
 export default {
     name: 'home',
     data () {
@@ -21,14 +25,9 @@ export default {
         };
     },
     components: {
-        'home-slider': homeSlider
+        'home-slider': homeSlider,
+        'home-featured': homeFeatured,
+        'home-latest-products': homeLatestProducts
     }
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-    #home{
-
-    }
-</style>

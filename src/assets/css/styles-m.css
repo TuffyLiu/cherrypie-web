@@ -19981,9 +19981,9 @@ textarea:not([disabled]):focus {
     margin-left: 1%
 }
 
-.cms-home #home-latest-products .amasty-label-container {
+/*.cms-home #home-latest-products .amasty-label-container {
     display: none !important
-}
+}*/
 
 .cms-home .instagram-related-product-list.block.widget .block-title {
     display: none

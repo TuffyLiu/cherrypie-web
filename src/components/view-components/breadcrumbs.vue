@@ -1,5 +1,5 @@
 <!--
-    @file:登录成功后所有子模块的父组件,包含左侧导航栏,顶部菜单栏等
+    @file:面包屑
 -->
 <template>
     <div class="breadcrumbs">

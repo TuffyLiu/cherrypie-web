@@ -1,7 +1,7 @@
 <template>
-  <div class="page-wrapper">
-    <page-header/>
-    <nav-sections/>
+  <div class="page-wrapper" ref="pageWrapper">
+    <page-header :class="{'is-sticky':scrollTop>100}"/>
+    <nav-sections :class="{'is-sticky':scrollTop>100}"/>
     <breadcrumbs/>
     <router-view/>
     <page-footer/>
@@ -20,6 +20,26 @@ export default {
         'nav-sections': navSections,
         'breadcrumbs': breadcrumbs,
         'page-footer': pageFooter
+    },
+    data () {
+        return {
+            scrollTop: 0
+        };
+    },
+    mounted () {
+        this.bindEvents();
+    },
+    methods: {
+        bindEvents () {
+            /*
+             * scroll
+             */
+            // const refs = this.$refs;
+            var self = this;
+            document.addEventListener('scroll', function () {
+                self.scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+            });
+        }
     }
 };
 </script>

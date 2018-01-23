@@ -6372,7 +6372,8 @@ textarea:not([disabled]):focus {
 @media (min-width:768px) {
     .page-header.is-sticky .logo {
         position: fixed;
-        left: 0;
+        /*left: 0; */
+        left:335px;
         top: 0;
         display: block;
         width: 100px;

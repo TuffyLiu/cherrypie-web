@@ -4378,7 +4378,7 @@ print {
         box-sizing: border-box
     }
     .instagram-related-product-list .products-grid .product-items .shop-social-links .shop-social-actions .instagram-related-post-link {
-        /*background-image: url('../images/icon-instagram-logo.png');*/
+        background-image: url('../images/icon-instagram-logo.png');
         background-color: transparent;
         background-repeat: no-repeat;
         background-position: 0 0;
@@ -6082,7 +6082,7 @@ button {
 
 .products-grid .product-item-name {
     margin-bottom: 0;
-    padding-right: 20px
+    /*padding-right: 20px*/
 }
 
 .products-grid .product-item .price-box {

@@ -17434,7 +17434,7 @@ button {
 
 .products-grid .product-item-name {
     margin-bottom: 0;
-    padding-right: 20px
+    /*padding-right: 20px*/
 }
 
 .products-grid .product-item .price-box {
@@ -19316,35 +19316,35 @@ textarea:not([disabled]):focus {
 }
 
 .page-footer .social-media-links li.facebook a:before {
-    /*background-image: url('../images/facebook-footer.png')*/
+    background-image: url('../images/facebook-footer.png')
 }
 
 .page-footer .social-media-links li.facebook a:hover:before {
-    /*background-image: url('../images/facebook-footer-over.png')*/
+    background-image: url('../images/facebook-footer-over.png')
 }
 
 .page-footer .social-media-links li.twitter a:before {
-    /*background-image: url('../images/twitter-footer.png')*/
+    background-image: url('../images/twitter-footer.png')
 }
 
 .page-footer .social-media-links li.twitter a:hover:before {
-    /*background-image: url('../images/twitter-footer-over.png')*/
+    background-image: url('../images/twitter-footer-over.png')
 }
 
 .page-footer .social-media-links li.pinterest a:before {
-    /*background-image: url('../images/pinterest-footer.png')*/
+    background-image: url('../images/pinterest-footer.png')
 }
 
 .page-footer .social-media-links li.pinterest a:hover:before {
-    /*background-image: url('../images/pinterest-footer-over.png')*/
+    background-image: url('../images/pinterest-footer-over.png')
 }
 
 .page-footer .social-media-links li.instagram a:before {
-    /*background-image: url('../images/instagram-footer.png')*/
+    background-image: url('../images/instagram-footer.png')
 }
 
 .page-footer .social-media-links li.instagram a:hover:before {
-    /*background-image: url('../images/instagram-footer-over.png')*/
+    background-image: url('../images/instagram-footer-over.png')
 }
 
 #footer-extra-links {

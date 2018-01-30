@@ -22,11 +22,11 @@
 </template>
 
 <script>
-import homeSlider from '../view-components/home-slider.vue';
-import homeFeatured from '../view-components/home-featured.vue';
-import homeLatestProducts from '../view-components/home-latest-products.vue';
-import instagramFeed from '../view-components/instagram-feed.vue';
-import blogFeatured from '../view-components/blog-featured.vue';
+import homeSlider from './home/home-slider.vue';
+import homeFeatured from './home/home-featured.vue';
+import homeLatestProducts from './home/home-latest-products.vue';
+import instagramFeed from './home/instagram-feed.vue';
+import blogFeatured from './home/blog-featured.vue';
 export default {
     name: 'home',
     data () {

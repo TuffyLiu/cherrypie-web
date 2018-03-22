@@ -12828,7 +12828,7 @@ fieldset[disabled] .my-credit-cards-popup .action.secondary {
 }
 
 .action.mailto.friend:before {
-    /*background-image: url('../images/icon-email.png');*/
+    background-image: url('../images/icon-email.png');
     background-color: transparent;
     background-attachment: scroll;
     background-position: 0 center;
@@ -12842,7 +12842,7 @@ fieldset[disabled] .my-credit-cards-popup .action.secondary {
 }
 
 .action.mailto.friend:hover:before {
-    /*background-image: url('../images/icon-email-over.png')*/
+    background-image: url('../images/icon-email-over.png')
 }
 
 .products.list.items .action.towishlist:before,

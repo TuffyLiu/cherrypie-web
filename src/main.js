@@ -8,6 +8,7 @@ import router from './router';
 /* import './assets/font-awesome/css/font-awesome.min.css'; */
 import './assets/css/styles-m.css';
 import './assets/css/styles-l.css';
+import './assets/css/elum-styles.css';
 
 Vue.use(VueLazyLoad);
 Vue.use(VueTouch, { name: 'v-touch' });

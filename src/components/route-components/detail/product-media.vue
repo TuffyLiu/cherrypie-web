@@ -4,15 +4,14 @@
 <template>
     <div id="product-media" class="product media">
         <div class="stage">
-            <lightbox :images="images"></lightbox>
+            <lightbox :images="images" :showCaption="false"></lightbox>
         </div>
         
     </div>
 </template>
 
 <script>
-import 'vue-image-lightbox/dist/vue-image-lightbox.min.css';
-import Lightbox from 'vue-image-lightbox';
+import Lightbox from './lightbox/Lightbox';
 export default {
     name: 'product-media',
     data () {
@@ -25,7 +24,7 @@ export default {
                 },
                 {
                     thumb: 'static/img/trp238_massachusetts.detail.jpg',
-                    src: 'static/img/massprint.jpg',
+                    src: 'static/img/trp238_massachusetts.detail.jpg',
                     caption: 'caption to display. receive <html> <b>tag</b>'
                 }
             ]

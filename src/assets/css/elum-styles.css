@@ -2,7 +2,15 @@
     Fonts
 */
 @import url('//hello.myfonts.net/count/3306b3');
-@font-face {font-family: 'FilosofiaOT-Italic';src: url('../fonts/3306B3_0_0.eot');src: url('../fonts/3306B3_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3306B3_0_0.woff2') format('woff2'),url('../fonts/3306B3_0_0.woff') format('woff'),url('../fonts/3306B3_0_0.ttf') format('truetype');}
+@font-face {
+    font-family: 'FilosofiaOT-Italic';
+    /*src: url('../fonts/3306B3_0_0.eot');
+    src: url('../fonts/3306B3_0_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/3306B3_0_0.woff2') format('woff2'),
+    url('../fonts/3306B3_0_0.woff') format('woff'),
+    url('../fonts/3306B3_0_0.ttf') format('truetype');*/
+    src: url('../font/3306B3_0_0.woff2') format('woff2');
+}
 
 
 /*
@@ -59,7 +67,7 @@
 .minicart-wrapper .action.showcart:before {
     background-attachment: scroll; 
     background-color: transparent;
-    background-image: url('../images/shopping-bag.png');
+    /*background-image: url('../images/shopping-bag.png');*/
     background-position: 0 0;
     background-repeat: no-repeat;
     height: 35px;
@@ -84,7 +92,7 @@
     font-size: 40px;
 }
 .minicart-wrapper .action.showcart:hover::before {
-    background-image: url('../images/shopping-bag-active.png');
+    /*background-image: url('../images/shopping-bag-active.png');*/
 }
 .minicart-wrapper .action.showcart .counter.qty {
     background: none;
@@ -230,14 +238,14 @@
 @media(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
     /* Retina-specific stuff here */
     .minicart-wrapper .action.showcart:before {
-        background-image: url('../images/shopping-bag@2x.png');
+        /*background-image: url('../images/shopping-bag@2x.png');*/
         background-size: 32px 36px;
     }
     .minicart-wrapper .action.showcart:hover::before {
-        background-image: url('../images/shopping-bag-active@2x.png');
+        /*background-image: url('../images/shopping-bag-active@2x.png');*/
     }
     .action.mailto.friend:before {
-        background-image: url('../images/icon-email@2x.png');
+        /*background-image: url('../images/icon-email@2x.png');*/
         background-size: 23px 18px;
     }
     .product-social-links .action.towishlist:before, 
@@ -247,7 +255,7 @@
     .product-info-main .action.towishlist:before, 
     .product-options-bottom .action.towishlist:before, 
     .block-bundle-summary .action.towishlist:before {
-        background-image: url(../images/icon-fav-outline@2x.png);
+        /*background-image: url(../images/icon-fav-outline@2x.png);*/
         background-size: 21px 20px;
     }
     .product-social-links .action.towishlist:hover:before, 
@@ -257,43 +265,43 @@
     .product-info-main .action.towishlist:hover:before, 
     .product-options-bottom .action.towishlist:hover:before, 
     .block-bundle-summary .action.towishlist:hover:before {
-        background-image: url(../images/icon-fav-hover@2x.png);
+        /*background-image: url(../images/icon-fav-hover@2x.png);*/
     }
     .block-search .action.search:before {
-        background-image: url(../images/icon-search.png);
+        /*background-image: url(../images/icon-search.png);*/
         background-size: 24px 24px;
     }
     .block-search .action.search:hover:before {
-        background-image: url(../images/icon-search-active@2x.png);
+        /*background-image: url(../images/icon-search-active@2x.png);*/
     }
     /* footer */
     .page-footer .social-media-links li.facebook a:before {
         background-size: 41px 41px;
     }
     .page-footer .social-media-links li.facebook a:before {
-        background-image: url(../images/facebook-footer@2x.png);
+        /*background-image: url(../images/facebook-footer@2x.png);*/
     }
     .page-footer .social-media-links li.facebook a:hover:before {
-        background-image: url(../images/facebook-footer-over@2x.png);
+        /*background-image: url(../images/facebook-footer-over@2x.png);*/
     }
     .page-footer .social-media-links li.twitter a:before {
-        background-image: url(../images/twitter-footer@2x.png);
+        /*background-image: url(../images/twitter-footer@2x.png);*/
     }
     .page-footer .social-media-links li.twitter a:hover:before {
-        background-image: url(../images/twitter-footer-over@2x.png);
+        /*background-image: url(../images/twitter-footer-over@2x.png);*/
     }
     .page-footer .social-media-links li.pinterest a:before {
-        background-image: url(../images/pinterest-footer@2x.png);
+        /*background-image: url(../images/pinterest-footer@2x.png);*/
     }
     .page-footer .social-media-links li.pinterest a:hover:before {
-        background-image: url(../images/pinterest-footer-over@2x.png);
+        /*background-image: url(../images/pinterest-footer-over@2x.png);*/
     }
     .page-footer .social-media-links li.instagram a:before {
-       background-image: url(../images/instagram-footer@2x.png);
+       /*background-image: url(../images/instagram-footer@2x.png);*/
     
     }
     .page-footer .social-media-links li.instagram a:hover:before {
-       background-image: url(../images/instagram-footer-over@2x.png);
+       /*background-image: url(../images/instagram-footer-over@2x.png);*/
     
     }
     

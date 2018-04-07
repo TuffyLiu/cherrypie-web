@@ -29,17 +29,17 @@ export default {
         return {
             banner: [
                 {
-                    href: '#',
+                    href: '/category',
                     imgage: 'static/img/0926_banner1.jpg',
                     title: 'Elum Fall Look Book - Clean Lines'
                 },
                 {
-                    href: '#',
+                    href: '/category',
                     imgage: 'static/img/0926_banner2.jpg',
                     title: 'Elum Fall Look Book - Clean Lines'
                 },
                 {
-                    href: '#',
+                    href: '/category',
                     imgage: 'static/img/0926_banner3.jpg',
                     title: 'Elum Fall Look Book - Clean Lines'
                 }

@@ -29,7 +29,7 @@
             <ol class="products list items product-items">
                 <li class="item product product-item" v-for="product in products">
                     <div class="product-item-info">
-                        <a class="product photo product-item-photo" href="#">
+                        <a class="product photo product-item-photo" :href="product.href">
                             <span class="product-image-container" style="width:290px;">
                                 <span class="product-image-wrapper" style="padding-bottom: 117.24137931034%;">
                                     <img class="product-image-photo" :src="product.first.img" width="290" height="340" :alt="product.first.alt">
@@ -88,7 +88,7 @@ export default {
             },
             products: [
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     first: {
                         img: 'static/img/wt15-popicons-washitape-1.jpg',
@@ -102,7 +102,7 @@ export default {
                     new: false
                 },
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     first: {
                         img: 'static/img/wt15-popicons-washitape-1.jpg',
@@ -116,7 +116,7 @@ export default {
                     new: false
                 },
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     first: {
                         img: 'static/img/wt15-popicons-washitape-1.jpg',
@@ -130,7 +130,7 @@ export default {
                     new: false
                 },
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     first: {
                         img: 'static/img/wt15-popicons-washitape-1.jpg',
@@ -144,7 +144,7 @@ export default {
                     new: false
                 },
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     first: {
                         img: 'static/img/wt15-popicons-washitape-1.jpg',
@@ -158,7 +158,7 @@ export default {
                     new: false
                 },
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     first: {
                         img: 'static/img/wt15-popicons-washitape-1.jpg',
@@ -172,7 +172,7 @@ export default {
                     new: false
                 },
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     first: {
                         img: 'static/img/wt15-popicons-washitape-1.jpg',

@@ -21,19 +21,19 @@ export default {
         return {
             featured: [
                 {
-                    href: '#',
+                    href: '/category',
                     title: 'Elum Designs Letterpress Thank You Cards',
                     initial: 'static/img/0929_BTNv2_1a.jpg',
                     active: 'static/img/0929_BTNv2_1b.jpg'
                 },
                 {
-                    href: '#',
+                    href: '/category',
                     title: 'Elum Designs Letterpress Thank You Cards',
                     initial: 'static/img/0929_BTNv2_2a.jpg',
                     active: 'static/img/0929_BTNv2_2b.jpg'
                 },
                 {
-                    href: '#',
+                    href: '/category',
                     title: 'Elum Designs Letterpress Thank You Cards',
                     initial: 'static/img/0929_BTNv2_3a.jpg',
                     active: 'static/img/0929_BTNv2_3b.jpg'

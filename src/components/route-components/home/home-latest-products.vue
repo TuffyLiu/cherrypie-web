@@ -20,7 +20,7 @@
                                         </div>
                                     </span>
                                 </a>
-                                <div class="product-item-details">
+                                <div class="product-item-detail">
                                     <strong class="product-item-name">
                                         <a :href="product.href" class="product-item-link" :title="product.title">
                                             {{product.title}}
@@ -49,7 +49,7 @@ export default {
         return {
             products: [
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     img: 'static/img/val_card_kit_wholekit_1.jpg',
                     imgalt: 'Elum Designs Delicious Cookies Valentine\'s Day Card Kit for Kids',
@@ -57,7 +57,7 @@ export default {
                     new: false
                 },
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     img: 'static/img/val_card_kit_wholekit_1.jpg',
                     imgalt: 'Elum Designs Delicious Cookies Valentine\'s Day Card Kit for Kids',
@@ -65,7 +65,7 @@ export default {
                     new: true
                 },
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     img: 'static/img/val_card_kit_wholekit_1.jpg',
                     imgalt: 'Elum Designs Delicious Cookies Valentine\'s Day Card Kit for Kids',
@@ -73,7 +73,7 @@ export default {
                     new: false
                 },
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     img: 'static/img/val_card_kit_wholekit_1.jpg',
                     imgalt: 'Elum Designs Delicious Cookies Valentine\'s Day Card Kit for Kids',
@@ -81,7 +81,7 @@ export default {
                     new: true
                 },
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     img: 'static/img/val_card_kit_wholekit_1.jpg',
                     imgalt: 'Elum Designs Delicious Cookies Valentine\'s Day Card Kit for Kids',
@@ -89,7 +89,7 @@ export default {
                     new: false
                 },
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     img: 'static/img/val_card_kit_wholekit_1.jpg',
                     imgalt: 'Elum Designs Delicious Cookies Valentine\'s Day Card Kit for Kids',
@@ -97,7 +97,7 @@ export default {
                     new: false
                 },
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     img: 'static/img/val_card_kit_wholekit_1.jpg',
                     imgalt: 'Elum Designs Delicious Cookies Valentine\'s Day Card Kit for Kids',
@@ -105,7 +105,7 @@ export default {
                     new: true
                 },
                 {
-                    href: '#',
+                    href: '/detail',
                     title: 'Delicious Cookies Kids Valentine Card Kit with Stickers ',
                     img: 'static/img/val_card_kit_wholekit_1.jpg',
                     imgalt: 'Elum Designs Delicious Cookies Valentine\'s Day Card Kit for Kids',

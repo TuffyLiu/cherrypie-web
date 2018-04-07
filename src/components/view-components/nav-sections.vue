@@ -44,7 +44,7 @@ export default {
             menu: [
                 {
                     title: 'New',
-                    href: '',
+                    href: '/category',
                     group: [
                         [
                             {
@@ -56,42 +56,42 @@ export default {
                 },
                 {
                     title: 'LETTERPRESS CARDS & GOODS',
-                    href: '',
+                    href: '/category',
                     group: [
                         [
                             {
                                 title: 'Greeting Cards',
-                                href: ''
+                                href: '/category'
                             },
                             {
                                 title: 'Letterpress Journals',
-                                href: ''
+                                href: '/category'
                             },
                             {
                                 title: 'Letterpress Journals',
-                                href: ''
+                                href: '/category'
                             },
                             {
                                 title: 'Letterpress Journals',
-                                href: ''
+                                href: '/category'
                             }
                         ],
                         [
                             {
                                 title: 'Greeting Cards',
-                                href: ''
+                                href: '/category'
                             },
                             {
                                 title: 'Letterpress Journals',
-                                href: ''
+                                href: '/category'
                             },
                             {
                                 title: 'Letterpress Journals',
-                                href: ''
+                                href: '/category'
                             },
                             {
                                 title: 'Letterpress Journals',
-                                href: ''
+                                href: '/category'
                             }
                         ]
                     ]
@@ -103,44 +103,44 @@ export default {
                         [
                             {
                                 title: 'Journals & Sketchbooks ',
-                                href: ''
+                                href: '/category'
                             },
                             {
                                 title: 'Journals & Sketchbooks ',
-                                href: ''
+                                href: '/category'
                             },
                             {
                                 title: 'Journals & Sketchbooks ',
-                                href: ''
+                                href: '/category'
                             },
                             {
                                 title: 'Journals & Sketchbooks ',
-                                href: ''
+                                href: '/category'
                             }
                         ],
                         [
                             {
                                 title: 'Bijou Collection',
-                                href: ''
+                                href: '/category'
                             },
                             {
                                 title: 'Letterpress Journals',
-                                href: ''
+                                href: '/category'
                             },
                             {
                                 title: 'Letterpress Journals',
-                                href: ''
+                                href: '/category'
                             },
                             {
                                 title: 'Letterpress Journals',
-                                href: ''
+                                href: '/category'
                             }
                         ]
                     ]
                 },
                 {
                     title: 'Custom Letterpress',
-                    href: ''
+                    href: '/category'
                 }
             ]
         };

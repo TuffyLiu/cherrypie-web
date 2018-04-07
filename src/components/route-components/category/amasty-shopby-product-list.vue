@@ -6,41 +6,7 @@
         <div class="toolbar toolbar-products">
             <div class="modes"></div>
             <p class="toolbar-amount">Items <span class="toolbar-number">1</span>-<span class="toolbar-number">12</span> of <span class="toolbar-number">142</span></p>
-            <div class="pages">
-                <strong class="label pages-label" id="paging-label">Page</strong>
-                <ul class="items pages-items" aria-labelledby="paging-label">
-                    <li class="item current">
-                        <strong class="page">
-                            <span class="label">You're currently reading page</span>
-                            <span>1</span>
-                        </strong>
-                    </li>
-                    <li class="item">
-                        <a href="http://www.elumdesigns.com/new?p=2" class="page">
-                            <span class="label">Page</span>
-                            <span>2</span>
-                        </a>
-                    </li>
-                    <li class="item">
-                        <a href="http://www.elumdesigns.com/new?p=2" class="page">
-                            <span class="label">Page</span>
-                            <span>3</span>
-                        </a>
-                    </li>
-                    <li class="item">
-                        <a href="http://www.elumdesigns.com/new?p=2" class="page">
-                            <span class="label">Page</span>
-                            <span>4</span>
-                        </a>
-                    </li>
-                    <li class="item pages-item-next">
-                        <a class="action  next" href="http://www.elumdesigns.com/new?p=2" title="Next">
-                            <span class="label">Page</span>
-                            <span>Next</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <pages/>
             <div class="toolbar-sorter sorter">
                 <label class="sorter-label" for="sorter">Sort By</label>
                 <select id="sorter" data-role="sorter" class="sorter-options">
@@ -98,67 +64,28 @@
             </ol>
         </div>
         <div class="toolbar toolbar-products">
-            <div class="pages">
-                <strong class="label pages-label" id="paging-label">Page</strong>
-                <ul class="items pages-items" aria-labelledby="paging-label">
-                    <li class="item current">
-                        <strong class="page">
-                            <span class="label">You're currently reading page</span>
-                            <span>1</span>
-                        </strong>
-                    </li>
-                    <li class="item">
-                        <a href="http://www.elumdesigns.com/new?p=2" class="page">
-                            <span class="label">Page</span>
-                            <span>2</span>
-                        </a>
-                    </li>
-                    <li class="item">
-                        <a href="http://www.elumdesigns.com/new?p=2" class="page">
-                            <span class="label">Page</span>
-                            <span>3</span>
-                        </a>
-                    </li>
-                    <li class="item">
-                        <a href="http://www.elumdesigns.com/new?p=2" class="page">
-                            <span class="label">Page</span>
-                            <span>4</span>
-                        </a>
-                    </li>
-                    <li class="item pages-item-next">
-                        <a class="action  next" href="http://www.elumdesigns.com/new?p=2" title="Next">
-                            <span class="label">Page</span>
-                            <span>Next</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="limiter">
-                <strong>Items per page</strong>
-                <ul class="items per-page-items limiter-options">
-                    <li class="limiter-option item current">
-                        <a href="http://www.elumdesigns.com/new?product_list_limit=12">12</a>
-                    </li>
-                    <li class="limiter-option item">
-                        <a href="http://www.elumdesigns.com/new?product_list_limit=12">24</a>
-                    </li>
-                    <li class="limiter-option item">
-                        <a href="http://www.elumdesigns.com/new?product_list_limit=12">36</a>
-                    </li>
-                    <li class="limiter-option item">
-                        <a href="http://www.elumdesigns.com/new?product_list_limit=12">ALL</a>
-                    </li>
-                </ul>
-            </div>
+            <pages/>
+            <limiter/>
         </div>
     </div>
 </template>
 
 <script>
+import pages from './pages.vue';
+import limiter from './limiter.vue';
 export default {
     name: 'amasty-shopby-product-list',
+    components: {
+        'pages': pages,
+        'limiter': limiter
+    },
     data () {
         return {
+            query: {
+                sortby: 'price',
+                page: 1,
+                perPage: 12
+            },
             products: [
                 {
                     href: '#',
